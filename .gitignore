@@ -1,0 +1,183 @@
+# ==============================================================================
+# PromptLake — Comprehensive .gitignore
+# ==============================================================================
+
+# ========================
+# Confidential / Private
+# ========================
+misc/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+secrets/
+credentials/
+
+# ========================
+# OS-Generated Files
+# ========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================
+# Editors & IDEs
+# ========================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*~
+Session.vim
+.netrwhist
+tags
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Node.js / JavaScript
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npmrc
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+.venv/
+venv/
+env/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# ========================
+# Build & Output
+# ========================
+dist/
+build/
+out/
+*.min.js
+*.min.css
+*.map
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.turbo/
+.vercel/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+*.log.*
+
+# ========================
+# Temporary & Backup Files
+# ========================
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.patch
+*.diff
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+.docker/
+
+# ========================
+# Terraform / IaC
+# ========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ========================
+# Miscellaneous
+# ========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+coverage/
+.sass-cache/
+*.pid
+*.seed
+.eslintcache
